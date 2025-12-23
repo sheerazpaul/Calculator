@@ -64,7 +64,7 @@ export default function Calculator() {
           </h1>
         </div>
         <div className="w-80 h-[540px] rounded-2xl bg-black shadow-2xl p-4 border ">
-          <div className="h-40 flex flex-col justify-end text-right px-2">
+          <div className="h-40 flex flex-col justify-end text-right px-2 hover:scale-105">
             <h1 className="text-5xl font-semibold text-white mt-2 truncate">
               {value || "0"}
             </h1>
